@@ -166,8 +166,8 @@ button.service:active {
     color: #333;
 }
 
+/* Botones */
 button.upload-button {
-    margin-top: 10px;
     background-color: #28a745;
     color: white;
     padding: 10px 15px;
@@ -179,4 +179,51 @@ button.upload-button {
 
 button.upload-button:hover {
     background-color: #218838;
+}
+
+button.paypal-button {
+    background-color: #ffc439;
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button.paypal-button:hover {
+    background-color: #e6ac00;
+}
+
+/* Texto "o" */
+.or-text {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* WhatsApp */
+.whatsapp-container {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.whatsapp-container p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.whatsapp-container a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.whatsapp-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
 }
